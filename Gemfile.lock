@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (8.0.0)
+    bcrypt (3.1.11)
     bindex (0.5.0)
     bootstrap-will_paginate (1.0.0)
       will_paginate
@@ -198,6 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (= 3.1.11)
   bootstrap-will_paginate (= 1.0.0)
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
