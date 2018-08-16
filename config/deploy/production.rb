@@ -61,7 +61,7 @@
 #   }
 set :stage, :production
 set :rails_env, :production
-set :deploy_to, "/home/deploy/apps/ssample_app"
+set :deploy_to, "/home/deploy/apps/sample_app"
 set :repo_url, "git@bitbucket.org:liaojiahao/sample_app.git"
 set :branch, ENV["PRODUCTION_BRANCH"]
 server ENV["PRODUCTION_SERVER_IP"], user: ENV["PRODUCTION_DEPLOY_USER"], roles: %w{web app db}
