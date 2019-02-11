@@ -4,5 +4,5 @@ rbenv:
 env:
   - DB=postgresql
 before_script:
-  - psql -c 'create database sample_app_test;' -U postgres
-  - psql -c "CREATE USER benson WITH PASSWORD '23818213ljh';" -U postgres
+  - psql -c "create user benson with password '23818213ljh';" -U postgres
+  - psql -c 'create database sample_app_test owner benson;' -U postgres
