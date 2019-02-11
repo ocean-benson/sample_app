@@ -1,5 +1,5 @@
 language: ruby
-rbenv:
+rvm:
   - 2.4.0
 env:
   - DB=postgresql
