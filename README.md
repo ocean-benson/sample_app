@@ -1,4 +1,4 @@
-# README
+# README                                                                       [![](https://travis-ci.org/ocean-benson/sample_app.svg?branch=master)](https://travis-ci.org/ocean-benson/sample_app)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
